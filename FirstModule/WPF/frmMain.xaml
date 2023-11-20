@@ -1,0 +1,19 @@
+<Window x:Name="frmMain" x:Class="MyVSGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyVSGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="460">
+    <Grid>
+        <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="272,311,0,0" VerticalAlignment="Top" Width="79"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="175,311,0,0" VerticalAlignment="Top" Width="79"/>
+
+        <Label x:Name="lblEnterText" Content="Please enter your name:" HorizontalAlignment="Left" Margin="30,69,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="172,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <ListBox x:Name="lstFiles" Margin="33,123,293,123" />
+    </Grid>
+</Window>
