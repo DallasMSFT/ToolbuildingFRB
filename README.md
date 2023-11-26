@@ -9,6 +9,7 @@ There are several different directories included in this repository; all are des
 * Snippet
 * Samples
 * FirstModule
+* Slides
 
 ## General Notes
 
@@ -32,7 +33,7 @@ Notice how all the functions have comment-based help and use ```Write-Verbose```
 
 * ```Set-HistoryToClipboard```: Copies history to the clipboard. One of, if not the first, function I wrote for myself. Not that interesting but very useful. Note how a a function alias is defined from _within_ the function.
 
-* ```Show-WaitBar```: Displays a 'Knight Rider' type progress bar for operations with an unknown end time. Demonstrates several advanced topics, including runspaces (two different ways) and passing script blocks as parameters.
+* ```Show-WaitBar```: Displays a 'Knight Rider' type progress bar for operations with an unknown end time. Demonstrates several advanced topics, including run spaces (two different ways) and passing script blocks as parameters.
 
 * ```Start-SleepWithProgress```: Sleeps while showing a progress bar. Demonstrates multiple parameter sets. I use this all the time.
 
@@ -50,6 +51,30 @@ Contains samples purpose-build for this class. They may be full functions or cod
 
 * ```Test-Dynamic Parameter```: Example of using Dynamic Parameters.
 
+* ```Get-SomeProcesses```: We wrote this in class. Shows simple error handling.
+
+* ```Get-FileList```: We wrote this in class. Shows pipeline input and more complex parameters. Also shows PSCustomObject with a PSTypeName.
+
+* ```Invoke-RunspaceExample```: We wrote this in class. Shows runspace async.
+
+* ```Invoke-RunspaceExamplePool```: We wrote this in class. Shows runspace pool.
+
 ## FirstModule
 
 FirstModule shows how Dallas believes (most) modules should be set up. This module contains code (nearly) identical to the code we developed in class with some additional functionality. This code is not as polished as I typically write (less error handling, etc.) for clarity and brevity.
+
+It uses multiple techniques, which I would not typically combine in a single module--multiple techniques can confuse the person maintaining the code after you.
+
+Since this is a module, you must use ```Import-Module``` to run it.
+
+## Slides
+
+Here are links to the course slides as well as links to the prerequisite courses. These are the _official_ slides and not necessarily what I presented in class; this is both more and less information, depending on the topic.
+
+> These links will work until the end of the year.
+
+* Foundation: [WorkshopPLUS-PowerShell_Foundation_Skills.zip](https://dkcstuff.blob.core.windows.net/frb/WorkshopPLUS-PowerShell_Foundation_Skills.zip)
+
+* IT Management: [WorkshopPLUS-PowerShell_IT_Management.zip](https://dkcstuff.blob.core.windows.net/frb/WorkshopPLUS-PowerShell_IT_Management.zip)
+
+* Tool Building (this course): [WorkshopPlus-PowerShell_ToolBuilding.zip](https://dkcstuff.blob.core.windows.net/frb/WorkshopPlus-PowerShell_ToolBuilding.zip)

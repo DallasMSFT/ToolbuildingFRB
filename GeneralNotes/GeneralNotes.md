@@ -43,20 +43,3 @@ A: I do not use many external PowerShell modules, other than Azure, AWS, and oth
 Find a discussion on the PowerShell profiler [https://blog.danskingdom.com/Easily-profile-your-PowerShell-code-with-the-Profiler-module/](https://blog.danskingdom.com/Easily-profile-your-PowerShell-code-with-the-Profiler-module/)
 
 And the actual GitHub repo at [https://github.com/nohwnd/Profiler](https://github.com/nohwnd/Profiler)
-
-## Notes
-
-Dynamic Parameter
-
-Argument Completor
-
-AD Example
-
-WPF Timer
-
-WPF Runspace
-
-Event Args
-...<https://stackoverflow.com/questions/3413418/wpf-and-powershell-handling-events>
-
-PowerShell Profiler
